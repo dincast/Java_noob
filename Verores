@@ -28,4 +28,4 @@ for (i=0; i < 8; i++) {
 
 Systen.out.println("A multiplicação dos elementos = " +mul);
 
-}
+} 
