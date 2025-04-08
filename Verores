@@ -1,0 +1,31 @@
+//  VETORES
+
+// 1. Escreva um programa que leia um vetor com 8 elementos e imprima a multiplicação dos elementos lidos
+
+
+
+// Projeto: ListaVetoresQ01
+
+
+// Class executavel
+
+// programa
+
+
+
+Scanner sc = new Scanner(System.in);
+
+int i, mul=1;
+int vet[] = new int(8);
+System.out.println("Informe 8 numeros: ");
+
+for (i=0; i < 8; i++) {
+vet[i] = sc.nextInt();
+
+for (i=0; i < 8; i++) {
+ mul = mul * vet[i];
+}
+
+Systen.out.println("A multiplicação dos elementos = " +mul);
+
+}
